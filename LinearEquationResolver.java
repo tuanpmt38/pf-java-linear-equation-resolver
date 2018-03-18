@@ -9,7 +9,7 @@ public class LinearEquationResolver {
         double b = sc.nextInt();
         if (a != 0) {
             double answer = - b / a;
-            System.out.printf("Equation pass with x = %f!\n", answer);
+            System.out.printf("Equation pass with x = %f!\n :", answer);
         } else {
             if (b == 0) {
                 System.out.print("The solution is all x!");
